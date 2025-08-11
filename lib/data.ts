@@ -91,6 +91,154 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
+        title: 'Mazraaty Digital Agriculture Platform',
+        slug: 'mazraaty-digital-agriculture',
+        liveUrl: undefined,
+        year: 2024,
+        description: `
+      Comprehensive agricultural management web portal for UAE stakeholders with advanced geospatial and multilingual capabilities. <br/> <br/>
+      Key Features:<br/>
+      <ul>
+        <li>🗺️ Interactive Mapbox GL interface with boundary drawing and area calculations</li>
+        <li>📊 Analytics dashboards using Chart.js and Recharts (emirate-wise statistics)</li>
+        <li>📝 Complex multi-step forms with React Hook Form and Zod validation</li>
+        <li>🌐 Multilingual (Arabic/English) with RTL support via next-intl</li>
+        <li>🔐 Role-based navigation and dynamic permission-based UI</li>
+        <li>🔎 Real-time filtering and search synced to URL state (nuqs)</li>
+        <li>⚡ Performance optimizations for fast load and smooth UX</li>
+      </ul>
+      `,
+        role: `
+      Front-End Engineer (Mahaseel) <br/>
+      <ul>
+        <li>✅ Implemented geospatial UI and complex form flows</li>
+        <li>🔧 Integrated internationalization and RTL layouts</li>
+        <li>📈 Built dashboards and optimized performance</li>
+      </ul>
+      `,
+        techStack: [
+            'Next.js 15',
+            'TypeScript',
+            'React',
+            'Mantine UI',
+            'Tailwind CSS',
+            'Mapbox GL',
+            'Chart.js',
+            'Recharts',
+            'React Hook Form',
+            'Zod',
+            'next-intl',
+            'nuqs',
+        ],
+        thumbnail: '/projects/images/mazzraty.png',
+        longThumbnail: '/projects/images/mazzraty.png',
+        images: [],
+    },
+    {
+        title: 'EFB System (Egyptian Food Bank)',
+        slug: 'efb-system',
+        liveUrl: undefined,
+        year: 2024,
+        description: `
+      End-to-end supply chain and warehouse management platform with QR code-based inventory tracking and public transparency. <br/> <br/>
+      Key Features:<br/>
+      <ul>
+        <li>🏷️ QR-based inventory tracking across multi-warehouse architecture</li>
+        <li>🧾 Procurement-to-delivery workflows with automated approvals</li>
+        <li>⚙️ Purchase order management, quality control, and stock validation</li>
+        <li>📦 Advanced inventory (processed/non-processed, expiration, waste tracking)</li>
+        <li>🌐 Public portal for QR scanning to trace items from farm to distribution</li>
+        <li>📊 Analytics dashboards and reports (procurement & departmental performance)</li>
+        <li>🔔 Real-time order fulfillment workflows and notifications</li>
+        <li>🖨️ QR code generation/printing for labeling and movement tracking</li>
+      </ul>
+      `,
+        role: `
+      Front-End Engineer (Mahaseel) <br/>
+      <ul>
+        <li>✅ Built core UI flows, inventory modules, and dashboards</li>
+        <li>🔄 Implemented complex workflow and state management</li>
+        <li>🔗 Integrated APIs and ensured responsive UX</li>
+      </ul>
+      `,
+        techStack: [
+            'React 18',
+            'TypeScript',
+            'Chakra UI',
+            'Redux Toolkit',
+            'React Hook Form',
+            'Chart.js',
+            'Recharts',
+            'QR Code',
+            'React Router',
+            'Axios',
+        ],
+        thumbnail: '/projects/images/Efb.png',
+        longThumbnail: '/projects/images/Efb.png',
+        images: [],
+    },
+    {
+        title: 'Qamhawy (Agricultural Services Platform)',
+        slug: 'qamhawy',
+        liveUrl:
+            'https://play.google.com/store/apps/details?id=com.qamhawy.app&hl=ar',
+        year: 2024,
+        description: `
+      Agricultural platform including a community wall, service requests, and an agri-waste marketplace. <br/> <br/>
+      Key Features:<br/>
+      <ul>
+        <li>👥 Community Wall with posts and interactions</li>
+        <li>🛠️ Service Request workflows</li>
+        <li>♻️ Agri Waste Marketplace module</li>
+      </ul>
+      `,
+        role: `
+      Front-End Engineer (Mahaseel) <br/>
+      <ul>
+        <li>✅ Implemented core modules and UI flows</li>
+        <li>🎯 Focused on usability and performance</li>
+      </ul>
+      `,
+        techStack: ['React 18', 'TypeScript', 'Refine', 'Ant Design'],
+        thumbnail: '/projects/images/qamhawy.png',
+        longThumbnail: '/projects/images/qamhawy.png',
+        images: [],
+    },
+    {
+        title: 'Takweed System (Egyptian Plant Quarantine)',
+        slug: 'takweed-system',
+        liveUrl:
+            'https://play.google.com/store/apps/details?id=com.takweed.app&hl=en',
+        year: 2024,
+        description: `
+      B2G solution for plant quarantine with certification reporting and geospatial compliance tracking. <br/> <br/>
+      Key Features:<br/>
+      <ul>
+        <li>📄 PDF certification reporting</li>
+        <li>🗺️ Geospatial compliance and monitoring</li>
+        <li>⏱️ Real-time monitoring dashboard</li>
+      </ul>
+      `,
+        role: `
+      Front-End Engineer (Mahaseel) <br/>
+      <ul>
+        <li>✅ Developed dashboard and reporting flows</li>
+        <li>🗺️ Integrated mapping and compliance tracking</li>
+      </ul>
+      `,
+        techStack: [
+            'React 18',
+            'TypeScript',
+            'Bootstrap',
+            'Formik',
+            'Yup',
+            'Mapbox',
+        ],
+        thumbnail: '/projects/images/takweed.png',
+        longThumbnail: '/projects/images/takweed.png',
+        images: [],
+    },
+    {
         title: 'Egy Medya',
         slug: 'egy-medya',
         liveUrl: 'https://www.egymedya.com/',
