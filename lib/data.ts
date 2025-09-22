@@ -65,6 +65,18 @@ export const MY_STACK = {
     ],
     backend: [
         {
+            name: 'Node.js',
+            icon: '/logo/node.png',
+        },
+        {
+            name: 'Express',
+            icon: '/logo/express.png',
+        },
+        {
+            name: 'MongoDB',
+            icon: '/logo/mongodb.png',
+        },
+        {
             name: 'Supabase',
             icon: '/logo/supabase.png',
         },
