@@ -73,8 +73,16 @@ export const MY_STACK = {
             icon: '/logo/express.png',
         },
         {
+            name: 'NestJS',
+            icon: '/logo/nest.png',
+        },
+        {
             name: 'MongoDB',
             icon: '/logo/mongodb.png',
+        },
+        {
+            name: 'PostgreSQL',
+            icon: '/logo/postgresql.png',
         },
         {
             name: 'Supabase',
@@ -102,6 +110,54 @@ export const MY_STACK = {
 };
 
 export const PROJECTS: IProject[] = [
+    {
+        title: 'King Herbs - Export Platform',
+        slug: 'king-herbs-export-platform',
+        liveUrl: 'https://king-herbs.com/en',
+        year: 2026,
+        description: `
+      A comprehensive export platform for King Herbs, a leading Egyptian exporter of premium dried herbs, spices, and botanicals serving global markets. <br/> <br/>
+      
+      About King Herbs:<br/>
+      King Herbs is a premier Egyptian exporter with over 45 years of experience in delivering high-quality agricultural products to global markets. The company serves importers, manufacturers, and distributors across 50+ countries with ISO-certified processes and sustainable farming practices.
+      <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>🌿 Product Catalog: Comprehensive showcase of premium dried herbs, spices, and botanicals</li>
+        <li>🌍 Global Reach: Platform supporting export operations to 50+ countries</li>
+        <li>📦 Export Management: End-to-end solutions from sourcing to worldwide shipping</li>
+        <li>✅ Quality Assurance: ISO-certified processes and strict quality control integration</li>
+        <li>🌱 Sustainability: Highlighting sustainable farming practices and certifications</li>
+        <li>📊 Business Solutions: Scalable solutions for importers, manufacturers, and distributors</li>
+        <li>📱 Responsive Design: Optimized experience for international B2B clients</li>
+      </ul>
+      `,
+        role: `
+      Frontend Developer (Freelance) <br/>
+      Responsible for developing the export platform:
+      <ul>
+        <li>✅ Built a professional B2B platform showcasing products and export capabilities</li>
+        <li>🌍 Implemented multilingual support for international markets</li>
+        <li>📦 Developed product catalog and export service presentation</li>
+        <li>🎨 Created responsive, professional UI for global business clients</li>
+        <li>⚡ Optimized for performance and international accessibility</li>
+      </ul>
+      `,
+        techStack: [
+            'Next.js',
+            'React',
+            'TypeScript',
+            'Tailwind CSS',
+        ],
+        thumbnail: '/projects/images/kings-herb1.png',
+        longThumbnail: '/projects/images/kings-herb1.png',
+        images: [
+            '/projects/images/kings-herb1.png',
+            '/projects/images/kings-herb2.png',
+            '/projects/images/kings-herb3.png',
+        ],
+    },
     {
         title: 'Mazraaty Digital Agriculture Platform',
         slug: 'mazraaty-digital-agriculture',
@@ -303,146 +359,6 @@ export const PROJECTS: IProject[] = [
             '/projects/images/egy-medya-1.png',
             '/projects/images/egy-medya-2.png',
             '/projects/images/egy-medya-3.png',
-        ],
-    },
-    {
-        title: 'Shop-Wise',
-        slug: 'shop-wise',
-        liveUrl:
-            'https://shop-wise-git-main-ahmeds-projects-a64d0fb5.vercel.app/',
-        year: 2024,
-        description: `
-      A fully functional e-commerce web application built from scratch to provide a seamless shopping experience. <br/> <br/>
-      
-      Key Features:<br/>
-      <ul>
-        <li>🔐 User Authentication: Secure login, registration, and user sessions</li>
-        <li>🛒 Shopping Cart: Complete product management with addition, removal, and order tracking</li>
-        <li>📱 Responsive Design: Optimized user experience across all device sizes</li>
-        <li>💳 Payment Integration: Secure checkout process with Stripe payment gateway</li>
-        <li>⚡ Performance Optimization: Implemented lazy loading, code splitting, and caching strategies</li>
-      </ul><br/>
-      
-      Technical Highlights:
-      <ul>
-        <li>Built with React and Next.js for server-side rendering and optimal performance</li>
-        <li>Implemented Redux for efficient state management across the application</li>
-        <li>Utilized Firebase for backend services including authentication and data storage</li>
-        <li>Designed with Tailwind CSS for a modern, responsive interface</li>
-      </ul>
-      `,
-        role: `
-      Frontend Developer <br/>
-      Responsible for the entire frontend implementation:
-      <ul>
-        <li>✅ Designed and developed a responsive UI using React, Redux, and Tailwind CSS</li>
-        <li>🔒 Implemented authentication and authorization with secure user sessions</li>
-        <li>🛒 Developed a complete shopping cart system with product management</li>
-        <li>⚡ Optimized frontend performance with advanced techniques</li>
-        <li>💳 Integrated Stripe payment gateway for secure transactions</li>
-      </ul>
-      `,
-        techStack: [
-            'React',
-            'Redux',
-            'Next.js',
-            'Tailwind CSS',
-            'Firebase',
-            'Stripe',
-        ],
-        thumbnail: '/projects/images/shop-wise-1.png',
-        longThumbnail: '/projects/images/shop-wise-1.png',
-        images: [
-            '/projects/images/shop-wise-1.png',
-            '/projects/images/shop-wise-2.png',
-            '/projects/images/shop-wise-3.png',
-        ],
-    },
-    {
-        title: 'Umbrella Show',
-        slug: 'umbrella-show',
-        techStack: ['React', 'Bootstrap', 'Framer Motion', 'Netlify'],
-        thumbnail: '/projects/images/umbrella-show-1.png',
-        longThumbnail: '/projects/images/umbrella-show-1.png',
-        images: [
-            '/projects/images/umbrella-show-1.png',
-            '/projects/images/umbrella-show-2.png',
-            '/projects/images/umbrella-show-3.png',
-        ],
-        liveUrl: 'https://umbrellashow.com/',
-        year: 2024,
-        description: `
-      A modern and visually engaging static landing page designed to showcase a creative show with smooth animations and a fully responsive layout. <br/> <br/>
-      
-      Key Features:<br/>
-      <ul>
-        <li>🎨 Visually Stunning: Pixel-perfect design implementation with attention to detail</li>
-        <li>🚀 High Performance: Optimized for fast loading and smooth interactions</li>
-        <li>📱 Fully Responsive: Perfect display across all device sizes</li>
-        <li>✨ Interactive Elements: Engaging user experience with smooth animations</li>
-      </ul>
-      `,
-        role: `
-      Frontend Developer <br/>
-      Responsible for the complete implementation:
-      <ul>
-        <li>✅ Developed a high-performance, pixel-perfect landing page using React</li>
-        <li>🎬 Implemented smooth animations and interactive elements with Framer Motion</li>
-        <li>📱 Optimized responsiveness across all devices using Bootstrap</li>
-        <li>🚀 Deployed and configured the site on Netlify for optimal performance</li>
-      </ul>
-      `,
-    },
-    {
-        title: 'Fast React Pizza',
-        slug: 'fast-react-pizza',
-        liveUrl: 'https://fast-react-pizza-omega-one.vercel.app/',
-        year: 2024,
-        description: `
-      A pizza delivery application built with React, Redux, and Tailwind CSS that allows users to order pizzas without creating an account. <br/> <br/>
-      
-      Key Features:<br/>
-      <ul>
-        <li>🍕 Dynamic Menu: Pizza menu loaded from API with real-time updates</li>
-        <li>🛒 Shopping Cart: Add multiple pizzas to cart before ordering</li>
-        <li>📱 No Login Required: Simple ordering with just name, phone, and address</li>
-        <li>📍 GPS Integration: Optional location sharing for easier delivery</li>
-        <li>⚡ Priority Orders: Option to mark orders as priority (20% additional fee)</li>
-        <li>🔍 Order Tracking: Unique ID for each order for easy lookup</li>
-      </ul><br/>
-      
-      Technical Highlights:
-      <ul>
-        <li>Built with React for a responsive and interactive UI</li>
-        <li>Implemented Redux for global state management across the application</li>
-        <li>Used React Router for seamless navigation and routing</li>
-        <li>Styled with Tailwind CSS for a modern, responsive design</li>
-        <li>Integrated with API for menu loading and order processing</li>
-      </ul>
-      `,
-        role: `
-      Frontend Developer <br/>
-      Responsible for the complete implementation:
-      <ul>
-        <li>✅ Developed the entire application using React and Redux</li>
-        <li>🛒 Built shopping cart functionality with state persistence</li>
-        <li>🔄 Implemented API integration for menu loading and order submission</li>
-        <li>📍 Added GPS location functionality for delivery optimization</li>
-        <li>🎨 Created responsive UI with Tailwind CSS for all device sizes</li>
-      </ul>
-      `,
-        techStack: [
-            'React',
-            'Redux',
-            'React Router',
-            'Tailwind CSS',
-            'API Integration',
-        ],
-        thumbnail: '/projects/images/fast-react-pizza-2.png',
-        longThumbnail: '/projects/images/fast-react-pizza-2.png',
-        images: [
-            '/projects/images/fast-react-pizza-1.png',
-            '/projects/images/fast-react-pizza-2.png',
         ],
     },
 ];
