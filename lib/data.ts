@@ -365,12 +365,12 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Frontend Developer',
+        title: 'Fullstack Developer (Frontend Focus)',
         company: 'Mahaseel Masr',
         duration: 'Feb 2024 - Present',
     },
     {
-        title: 'Frontend Developer (Freelance)',
+        title: 'Fullstack Developer (Freelance)',
         company: 'Freelance',
         duration: 'March 2024 - Present',
     },

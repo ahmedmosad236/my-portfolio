@@ -73,18 +73,21 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a frontend web developer dedicated to
-                                turning ideas into creative solutions. I
-                                specialize in creating seamless and intuitive
-                                user experiences.
+                                I&apos;m a fullstack web developer with a strong
+                                focus on frontend, dedicated to turning ideas
+                                into creative solutions. I specialize in
+                                creating seamless and intuitive user experiences
+                                while building robust backend systems.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
                                 My approach focuses on creating scalable,
-                                high-performing solutions tailored to both user
-                                needs and business objectives. By prioritizing
-                                performance, accessibility, and responsiveness,
-                                I strive to deliver experiences that not only
-                                engage users but also drive tangible results.
+                                high-performing full-stack solutions tailored to
+                                both user needs and business objectives. By
+                                prioritizing performance, accessibility, and
+                                responsiveness on the frontend, combined with
+                                efficient backend architecture, I strive to
+                                deliver experiences that not only engage users
+                                but also drive tangible results.
                             </p>
                         </div>
                     </div>
